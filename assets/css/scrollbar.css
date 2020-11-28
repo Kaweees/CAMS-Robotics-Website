@@ -1,19 +1,15 @@
-* {
-     scrollbar-width: thin;
-    scrollbar-color: #99AAB5 #232F33;
+/*
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(102, 102, 102);
+    border-radius: 4px;
 }
 
-/* Works on Chrome/Edge/Safari */
-*::-webkit-scrollbar {
-    width: 12px;
+::-webkit-scrollbar-track {
+    background-color: rgb(70, 69, 66);
+    border-radius: 12px;
+    margin: 2px 0px;
 }
-
-*::-webkit-scrollbar-track {
-    background: #232F33;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: #99AAB5;
-    border-radius: 20px;
-    border: 3px solid #232F33;
-}
+*/
