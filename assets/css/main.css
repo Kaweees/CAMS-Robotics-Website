@@ -46,6 +46,7 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
