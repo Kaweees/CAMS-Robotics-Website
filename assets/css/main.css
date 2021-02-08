@@ -108,6 +108,8 @@
     font-size: 2vw;
 }
 
-
 /*Fix overflow bug for aos*/
-*, *:before, *:after { overflow-x: hidden; }
+
+html, body {
+    overflow-x: auto;
+}
