@@ -107,3 +107,7 @@
     color: white;
     font-size: 2vw;
 }
+
+
+/*Fix overflow bug for aos*/
+*, *:before, *:after { overflow-x: hidden; }
