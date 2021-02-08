@@ -110,6 +110,9 @@
 
 /*Fix overflow bug for aos*/
 
-html, body {
-    overflow-x: auto;
+html, body  {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
 }
