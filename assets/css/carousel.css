@@ -3,8 +3,8 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 0;
+  margin: 0;
   color: #5a5a5a;
 }
 
@@ -46,10 +46,12 @@ body {
 .marketing h2 {
   font-weight: 400;
 }
+/* rtl:begin:ignore */
 .marketing .col-lg-4 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
+/* rtl:end:ignore */
 
 
 /* Featurettes
@@ -63,6 +65,7 @@ body {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
+  /* rtl:remove */
   letter-spacing: -.05rem;
 }
 

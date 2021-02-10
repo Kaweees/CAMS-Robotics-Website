@@ -46,6 +46,7 @@
     padding-top: 3vw;
     padding-bottom: 3vw;
     min-height: 100vh;
+    width: 100%;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -105,4 +106,13 @@
 .about .numbers .fact p {
     color: white;
     font-size: 2vw;
+}
+
+/*Fix overflow bug for aos*/
+
+html, body  {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    width: 100%;
 }

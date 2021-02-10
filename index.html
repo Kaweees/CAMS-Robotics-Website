@@ -11,279 +11,312 @@
     <meta property="og:title" content="Welcome | CAMS Engineering">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kaweees.github.io/CAMS-Robotics-Website/">
-    <meta property="og:image" content="https://kaweees.github.io/CAMS-Robotics-Website/assets/images/cams.png">
-    <link rel="shortcut icon" href="https://kaweees.github.io/CAMS-Robotics-Website/assets/images/cams.png">
+    <meta property="og:image" content="https://kaweees.github.io/CAMS-Robotics-Website/assets/images/cams-white-normal.png">
     <meta property="og:description" content="Lorem ipsum">
+    <link rel="shortcut icon" href="https://kaweees.github.io/CAMS-Robotics-Website/assets/images/cams-white-normal.png">
+    <link rel="canonical" href="https://kaweees.github.io/CAMS-Robotics-Website/">
 
     <!-- Icons -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     
     <!-- AOS - Animate on scroll library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
     <!-- Custom CSS -->
     <link href="assets/css/carousel.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
-    <link href="assets/css/scrollbar.css" rel="stylesheet">
-    <link href="assets/css/icons.css" rel="stylesheet">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">
-        <img src="assets/images/" alt="CAMS Logo" style="width:75px">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item dropdown">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html" aria-disabled="true">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">VEX V5</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="about-vrc.html">What is VEX V5</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Tower Takeover</a>
-                <a class="dropdown-item" href="#">Turning Point</a>
-                <a class="dropdown-item" href="#">In the Zone</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FRC</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="about-frc.html">What is FRC</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Infinite Recharge</a>
-                <a class="dropdown-item" href="#">Destination: Deep Space</a>
-                <a class="dropdown-item" href="#">FIRST Power Up</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MATE ROV</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">What is MATE ROV</a>
-                <div class="dropdown-divider"></div>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CARPA Initative</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">What is the CARPA Initative</a>
-                <div class="dropdown-divider"></div>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Programs</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">MESA</a>
-                <a class="dropdown-item" href="#">Science Olympiad</a>
-              </div>
-            </li>
-          </li>
-        </ul>
-        <!-- Search Bar
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-         -->
-      </div>
-    </nav>
-    <main role="main">
+  <body class="w-100">
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark w-100">
+        <div class="container-fluid">
+          <a class="navbar-brand align-middle pt-0 pb-0" href="#">
+            <img class="mt-0 mb-0 pt-0 pb-0 text-center rounded-circle" src="assets/images/cams-white.png" alt="CAMS Logo" style="width:50px; border: 3px solid black;">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item dropdown">
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" aria-disabled="true">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    VEX V5
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="about-vrc.htm">What is VEX V5</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Tower Takeover</a></li>
+                    <li><a class="dropdown-item" href="#">Turning Point</a></li>
+                    <li><a class="dropdown-item" href="#">In the Zone</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    FRC
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="about-frc.htm">What is FRC</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Infinite Recharge</a></li>
+                    <li><a class="dropdown-item" href="#">Destination: Deep Space</a></li>
+                    <li><a class="dropdown-item" href="#">FIRST Power Up</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MATE ROV
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="about-rov.htm">What is MATE ROV</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">A</a></li>
+                    <li><a class="dropdown-item" href="#">B</a></li>
+                    <li><a class="dropdown-item" href="#">C</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CARPA Initative
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="about-carpa.htm">What is the CARPA Initative</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">A</a></li>
+                    <li><a class="dropdown-item" href="#">B</a></li>
+                    <li><a class="dropdown-item" href="#">C</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Other Programs
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">MESA</a></li>
+                    <li><a class="dropdown-item" href="#">Science Olympiad</a></li>
+                  </ul>
+                </li>
+              </li>
+            </ul>
+            <!-- 
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            -->
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
       <!-- JUMBOTRON -->
       <div class="jumbotron text-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(assets/images/cams_view.jpg); border-radius: 0;">
         <div class="container about">
           <h1 class="page-header text-white ">Welcome to CAMS Engineering</h1>
-          <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+          <p class="text-white">Home of a world-class engineering program and extracirriculars</p>
           
         </div>
       </div>
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Passionate Curriculum</h1>
-                <p>Our school's extracirricular engineering students are taught using a cirriculum that can be applied in the professional world </p>
-                <p><a class="btn btn-lg btn-primary" href="#programs" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Superior Robotics</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#robotics" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg>
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>Join today</h1>
-                <p>Note: Times and dates for Appications for Clubs may vary </p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Join today</a></p>
-              </div>
+    </main>
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Passionate Curriculum</h1>
+              <p>Our school's extracirricular engineering students are taught using a cirriculum that can be applied in the professional world.</p>
+              <p><a class="btn btn-lg btn-primary" href="#programs"" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>  
-      <!-- Marketing messaging and featurettes
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Superior Robotics</h1>
+              <p>Our school's robotics programs are home to statewide-recognized robotics teams</p>
+              <p><a class="btn btn-lg btn-primary" href="#robotics" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>Join Today</h1>
+              <p>Note: Times and dates for Appications for Clubs may vary.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Join today</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+    <!-- Marketing messaging and featurettes
       ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-      <div id="programs" class="container marketing">
-        <h1 class="page-header text-black font-weight-bold text-justify text-center mb-4" data-aos="fade-up">Our Engineering Programs</h1>
-        <div class="row">
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/VRC/v5.png" class="img-fluid" alt="Responsive image" width="140" height="140" style="border-radius: 50%;">
-            <h2>VEX V5</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/FRC/frc_logo.png" class="img-fluid" alt="Responsive image" width="140" height="140">
-            <h2>FRC</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/ROV/mate_rov.png" class="img-fluid" alt="Responsive image" width="140" height="140">
-            <h2>MATE ROV</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/MESA/MESA_black.png" class="img-fluid" alt="Responsive image" width="140" height="140" style="border-radius: 50%;">
-            <h2>MESA</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/CARPA_INIT/Carpa.png" class="img-fluid" alt="Responsive image" width="140" height="140">
-            <h2>Carpa Initative</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
-            <img src="assets/images/SCI_OLY/sci_oly_red_30yrs.png" class="img-fluid" alt="Responsive image" width="140" height="140">
-            <h2>Science Olympiad</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div id="programs" class="container marketing">
+      <h1 class="page-header text-black font-weight-bold text-justify text-center mb-4" data-aos="fade-up">Our Engineering Programs</h1>
+      <div class="row">
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/VRC/v5.png" class="img-fluid" alt="Responsive image" width="140" height="140" style="border-radius: 50%;">
+          <h2>VEX V5</h2>
+          <p>Using only VEX-distributed parts, with the main part of the robot using only the VEX V5 System, students are tasked to design, build. and compete using a robot that completes an objective that changes yearly.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/FRC/frc_logo.png" class="img-fluid" alt="Responsive image" width="140" height="140">
+          <h2>FRC</h2>
+          <p>Every year, students in the FIRST Robotics Competition (FRC) are tasked with designing, building. and competing with a robot that can fufil the year's game.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/ROV/mate_rov.png" class="img-fluid" alt="Responsive image" width="140" height="140">
+          <h2>MATE ROV</h2>
+          <p>In the MATE ROV Competition, students are tasked with creating a remotely operated vehicle (ROV) that performs a series of tasks underwater that change yearly. The students must also give a professional presentation in the form of a product sales pitch.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/MESA/MESA_black.png" class="img-fluid" alt="Responsive image" width="140" height="140" style="border-radius: 50%;">
+          <h2>MESA</h2>
+          <p>Mathematics, Engineering, Science Achievement (MESA) is a program that promotes engineering to students by providing college prep and a yearly competition. In the MESA Day competition, students compete in singualar or group-based competitions that change every year.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/CARPA_INIT/Carpa.png" class="img-fluid" alt="Responsive image" width="140" height="140">
+          <h2>Carpa Initative</h2>
+          <p>Every year, each senior class period enrolled in the Engineering, Design, and Development (EDD) class must form an engineering startup which creates a robot or a form of technology that solves a problem given by the teacher. Each startup must raise funds from investors for the development of their technology.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4 p-4 m-0" data-aos="fade-up">
+          <img src="assets/images/SCI_OLY/sci_oly_red_30yrs.png" class="img-fluid" alt="Responsive image" width="140" height="140">
+          <h2>Science Olympiad</h2>
+          <p>Students compete in group or singualar based competitions. The competitions change yearly, and the topics covered in the competitions may range from mathematics to engineering to science.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
 
-        <!-- START THE FEATURETTES -->
-        <hr class="featurette-divider mt-3 mb-3">
-        <div id="robotics" class="container robotics-teams">
-          <h1 class="page-header text-black font-weight-bold text-justify text-center mb-4" data-aos="fade-up">Our Robotics Teams</h1>
-          <div class="row featurette" data-aos="fade-right">
-            <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">VEX V5 687: The Nerd Herd</span></h2>
-              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-              <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
-            </div>
-            <div class="col-md-5 order-md-1">
-              <img src="assets/images/FRC/nerd_herd.png" class="img-fluid featurette-image img-fluid mx-auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image">  
-            </div>
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider mt-3 mb-3">
+      <div id="robotics" class="container robotics-teams">
+        <h1 class="page-header text-black font-weight-bold text-justify text-center mb-4" data-aos="fade-up">Our Robotics Teams</h1>
+        <div class="row featurette" data-aos="fade-right">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">VEX V5 687: The Nerd Herd</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
           </div>
-          <hr class="featurette-divider">
-          <div class="row featurette" data-aos="fade-left">
-            <div class="col-md-7">
-              <h2 class="featurette-heading">FRC 687: The Nerd Herd</span></h2>
-              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-            </div>
-            <div class="col-md-5 order-md-1">
-              <img src="assets/images/FRC/nerd_herd_2.png" class="img-fluid featurette-image img-fluid mx-auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image">  
-            </div>
-          </div>
-          <hr class="featurette-divider">
-          <div class="row featurette" data-aos="fade-right">
-            <div class="col-md-7 order-md-2">
-              <h2 class="featurette-heading">45C Robotics.</h2>
-              <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-              <p><a class="btn btn-lg btn-light" href="#" role="button">Learn more</a></p>
-            </div>
-            <div class="col-md-5">
-              <img src="assets/images/ROV/45C_logo.png" class="img-fluid featurette-image img-fluid mx-auto" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image"> 
-            </div>
+          <div class="col-md-5 order-md-1">
+            <img src="assets/images/FRC/nerd_herd.png" class="img-fluid featurette-image img-fluid mx-auto p-4" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image">  
           </div>
         </div>
         <hr class="featurette-divider">
-        <!-- /END THE FEATURETTES -->
-        </div><!-- /.container -->  
-      </div><!-- /.container -->
-      <!-- Footer -->
-      <footer class="container py-5 ">
-        <div class="row">
-          <div class="col-12 col-md" style="min-width: initial;">
-            <a href="index.html"><img src="" class="img-fluid" alt="Responsive image" width="100" height="55"></a>
-            <small class="d-block mb-3 text-muted">Copyright &copy; 2020</small>
+        <div class="row featurette" data-aos="fade-left">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">FRC 687: The Nerd Herd</span></h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
           </div>
-          <div class="col-6 col-md">
-            <h5>Robotics Programs</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="">VEX 687</a></li>
-              <li><a class="text-muted" href="">FRC 687</a></li>
-              <li><a class="text-muted" href="">45C Robotics</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Other Programs</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="about-team.html">MESA</a></li>
-              <li><a class="text-muted" href="">The Carpa Initative</a></li>
-              <li><a class="text-muted" href="team-members.html">Science Olympiad</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Contact Us</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="https://lbcams.schoolloop.com/">CAMS Website</a></li>
-              <li><a class="text-muted" href="contact.html">CAMS VEX V5 Faculty</a></li>
-              <li><a class="text-muted" href="contact.html">CAMS FRC Faculty</a></li>
-              <li><a class="text-muted" href="contact.html">CAMS MATE ROV Faculty</a></li>
-            </ul>
+          <div class="col-md-5 order-md-1">
+            <img src="assets/images/FRC/nerd_herd_2.png" class="img-fluid featurette-image img-fluid mx-auto p-4" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image">  
           </div>
         </div>
-      </footer>
-    </main>
+        <hr class="featurette-divider">
+        <div class="row featurette" data-aos="fade-right">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">45C Robotics.</h2>
+            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p><a class="btn btn-lg btn-light" href="#" role="button">Learn more</a></p>
+          </div>
+          <div class="col-md-5">
+            <img src="assets/images/ROV/45C_logo.png" class="img-fluid featurette-image img-fluid mx-auto p-4" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" width="500" height="500" alt="Responsive image"> 
+          </div>
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <!-- /END THE FEATURETTES -->
+      </div><!-- /.container -->  
+    </div><!-- /.container -->
+    <!-- Footer -->
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md" style="min-width: initial;">
+          <a href="index.html" class="text-decoration-none"><img src="assets/images/cams-white.png" class="img-fluid text-decoration-none rounded-circle" alt="Responsive image" width="100" height="100" style="border: 3px solid black;"></a>
+          <small class="d-block mb-3 text-muted">Copyright &copy; 2020</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Robotics Programs</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted text-decoration-none" href="">VEX 687</a></li>
+            <li><a class="text-muted text-decoration-none" href="">FRC 687</a></li>
+            <li><a class="text-muted text-decoration-none" href="">45C Robotics</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Other Programs</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted text-decoration-none" href="about-team.html">MESA</a></li>
+            <li><a class="text-muted text-decoration-none" href="">The Carpa Initative</a></li>
+            <li><a class="text-muted text-decoration-none" href="team-members.html">Science Olympiad</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Contact Us</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted text-decoration-none" href="https://lbcams.schoolloop.com/">CAMS Website</a></li>
+            <li><a class="text-muted text-decoration-none" href="contact.html">CAMS VEX V5 Faculty</a></li>
+            <li><a class="text-muted text-decoration-none" href="contact.html">CAMS FRC Faculty</a></li>
+            <li><a class="text-muted text-decoration-none" href="contact.html">CAMS MATE ROV Faculty</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
-  <!-- Bootstrap - JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-  
   <!-- AOS - Animate on scroll library - JS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();
   </script>
+  
+  <!-- Bootstrap 5 - JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
 
   <!-- Custom JS -->
-  <script src="assets/js/counter.js"></script>
-  <script src="assets/js/animation.js"></script>
 </html>
